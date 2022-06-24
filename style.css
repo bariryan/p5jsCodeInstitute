@@ -1,21 +1,17 @@
 /*
-=============== 
+
 Fonts
-===============
+
 */
 @import url("https://fonts.googleapis.com/css?family=Open+Sans|Roboto:400,700&display=swap");
 
-/*
-=============== 
-Variables
-===============
-*/
+
 
 
 /*
-=============== 
+
 Global Styles
-===============
+
 */
 
 *,
@@ -42,7 +38,6 @@ h1,
 h2,
 h3,
 h4 {
-  letter-spacing: var(--spacing);
   text-transform: capitalize;
   line-height: 1.25;
   margin-bottom: 0.75rem;
