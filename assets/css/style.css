@@ -180,11 +180,8 @@ ul {
   margin-top: -1rem;
 }
 
-/*
-=============== 
-Wikipedia 
-===============
-*/
+/* Wikipedia */
+
 .wiki {
   padding: 5rem 0;
   width: 90vw;
@@ -268,6 +265,8 @@ Wikipedia
   background: var(--black);
   color: var(--white);
 }
+
+/* Media Queries */
 
 @media screen and (min-width: 768px) {
   .articles {

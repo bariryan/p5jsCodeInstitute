@@ -18,7 +18,7 @@ Wiki-Find is minimal in both it's approach and design. The main feature is the s
 
 After you complete your search and the Wiki API returns your results you will be confronted with the applications second main feature; Data visualisation. A cascading card style display will present your search results in real time in both an organised and arranged manner. 
 
-An animation will be actived if you hover over each article independently, making it easy to navigate multiple articles.
+An animation will be actived if you hover over each article independently, making it easy to navigate multiple articles. If you click on an article the browser will automatically open the corresponding Wikipedia article in a new window.
 
 ### Features Left to Implement
 
