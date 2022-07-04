@@ -1,4 +1,4 @@
-const url =
+const urlWikiFind =
   'https://en.wikipedia.org/w/api.php?action=query&list=search&srlimit=20&format=json&origin=*&srsearch=';
 
 const formDOM = document.querySelector('.form');
@@ -19,7 +19,7 @@ formDOM.addEventListener('submit', (e) => {
 const fetchPages = async (searchValue) => {
   resultsDOM.innerHTML = '<div class="loading"></div>';
   try {
-    const response = await fetch(`${url}${searchValue}`);
+    const response = await fetch(`${urlWikiFind}${searchValue}`);
     const data = await response.json();
     const results = data.query.search;
     if (results.length < 1) {
