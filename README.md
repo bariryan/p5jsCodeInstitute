@@ -1,22 +1,29 @@
 # Wikipedia Aggregator 
 
-Have you ever wanted a to be able to acess multiple wikipedia articles with one search term? Wiki-find can do just that. This service is intended to give the user a smorgasbord of different results by acessing the MediaWiki Action API and returning and displaying your results on a browser in the visual style of cascading cards.
+Have you ever wanted a to be able to acess multiple wikipedia articles with one single search term? Wiki-find can do just that. This service is intended to give the user a smorgasbord of different results by acessing the MediaWiki Action API and returning and displaying your results on a browser in the visual style of cascading cards.
 
 It can be very useful to diplay information in this 'mind mapping' way. The benifits include;
-  * It helps you remember and recall information.
-  * It helps you learn new concepts.
-  * It's a fun way of learning.
-  * It makes complex ideas easier to understand. 
-  * It improves your presenting.
-  * It boosts your creativity.
-  * It improves productivity.
+  - It helps you remember and recall information.
+  - It helps you learn new concepts.
+  - It's a fun way of learning.
+  - It makes complex ideas easier to understand. 
+  - It improves your presenting.
+  - It boosts your creativity.
+  - It improves productivity.
 
 
 ## Features 
+### search input box 
+Wiki-Find is minimal in both it's approach and design. The main feature is the which connects the end user to Wikipedia, a free online encyclopedia created and edited by volunteers around the world and hosted by the Wikimedia Foundation.
 
-Wiki-Find is minimal in both it's approach and design. The main feature is the search input box which connects the end user to Wikipedia, a free online encyclopedia created and edited by volunteers around the world and hosted by the Wikimedia Foundation.
+After you complete your search and the 
 
-After you complete your search and the Wiki API returns your results you will be confronted with the applications second main feature; Data visualisation. A cascading card style display will present your search results in real time in both an organised and arranged manner. 
+### Wiki API 
+returns your results you will be confronted with the applications main feature; 
+[wiki docs](https://www.mediawiki.org/wiki/API:Main_page)
+
+### Data visualisation
+ A cascading card style display will present your search results in real time in both an organised and arranged manner. 
 
 An animation will be actived if you hover over each article independently, making it easy to navigate multiple articles. If you click on an article the browser will automatically open the corresponding Wikipedia article in a new window.
 
@@ -37,11 +44,7 @@ An animation will be actived if you hover over each article independently, makin
         - h4
         - p (lorem20)
 
-### API DOCS
 
-- [wiki docs](https://www.mediawiki.org/wiki/API:Main_page)
-
-- ready to go url's
 
 ### Initial Setup
 
