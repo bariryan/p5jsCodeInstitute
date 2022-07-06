@@ -15,22 +15,14 @@ It can be very useful to diplay information in this 'mind mapping' way. The beni
 ## Features 
 ### search input box 
 Wiki-Find is minimal in both it's approach and design. The main feature is the which connects the end user to Wikipedia, a free online encyclopedia created and edited by volunteers around the world and hosted by the Wikimedia Foundation.
-
-After you complete your search and the 
-
 ### Wiki API 
-returns your results you will be confronted with the applications main feature; 
+your results you will be generated and delivered by the applications main feature; 
 [wiki docs](https://www.mediawiki.org/wiki/API:Main_page)
-
 ### Data visualisation
- A cascading card style display will present your search results in real time in both an organised and arranged manner. 
-
-An animation will be actived if you hover over each article independently, making it easy to navigate multiple articles. If you click on an article the browser will automatically open the corresponding Wikipedia article in a new window.
-
+ A cascading card style display will present your search results in real time in both an organised and arranged manner.An animation will be actived if you hover over each article independently, making it easy to navigate multiple articles. If you click on an article the browser will automatically open the corresponding Wikipedia article in a new window.
 ## Existing Structure
 
 ### HTML Structure
-
 - section.wiki
   - div.container
     - img
@@ -43,28 +35,20 @@ An animation will be actived if you hover over each article independently, makin
       - a
         - h4
         - p (lorem20)
-
-
-
 ### Initial Setup
-
 - select form, input, results
 - listen for submit events
 - if empty value, display error
 - create fetchPages()
 - pass valid input value into the fetchPages()
-
 ### Fetch Pages
-
 - display loading while fetching
 - construct dynamic url
 - display if error
 - display error no items
 - create renderResults()
 - pass valid results into renderResults()
-
 ### Render Results
-
 - iterate over the list
 - pull out title, snippet, pageid
 - setup a card
@@ -77,17 +61,9 @@ A feature that lets the user save his/her history is currently being planned for
 
 ## Testing 
 
-
 Responsive display will automatically adjust the size and format to fit different media devices across the web. This means that your responsive display can display within a mobile app while also appearing correctly on a labtop computer or tablet device. This is achieved through the use of media queries.
 
-In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your project’s features and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
-
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
-
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
-
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
-
+All my projects features are working and have been extensivley tested at the time of publication.
 
 
 ## Validator Testing 
@@ -105,8 +81,6 @@ If this section grows too long, you may want to split it off into a separate fil
 
 ## Deployment
 
-This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub) 
-
 - The site was deployed to GitHub pages. The steps to deploy are as follows: 
   - In the GitHub repository, navigate to the Settings tab 
   - From the source section drop-down menu, select the Master Branch
@@ -114,11 +88,6 @@ This section should describe the process you went through to deploy the project 
 
 The live link can be found here - https://bariryan.github.io/p5jsCodeInstitute/
 
-
 ## Credits 
-
-In this section you need to reference where you got your content, media and extra help from. It is common practice to use code from other repositories and tutorials, however, it is important to be very specific about these sources to avoid plagiarism. 
-
-You can break the credits section up into Content and Media, depending on what you have included in your project. 
 
 This inspiration for this project was largley inspired by https://github.com/john-smilga/javascript-basic-projects
